@@ -1,0 +1,113 @@
+GLOBAL YOUTUBE STATISTICS 2023.
+
+EXCEL/MYSQL
+DESCRIPTION.
+
+In this project, I delved into the vast world of YouTube and analyzed the latest Global YouTube Statistics for the year 2023. With the help of an extensive dataset obtained from Kaggle, I explored fascinating insights about the top popular channels, and other key performance indicators (KPIs) on this massive video-sharing platform. From subscriber counts to earnings, this project sheds light on the dynamics of YouTube in the digital age. Whether you’re a data enthusiast, content creator, or simply curious about YouTube’s global impact, this analysis provides valuable insights into the ever-evolving landscape of online video content. 
+
+PURPOSE OF THE PROJECT.
+
+The primary goal of this project is to analyze and gain insights into the global YouTube landscape for the year 2023. By examining a comprehensive dataset, I aim to achieve the following objectives:
+
+1.Understanding YouTube Trends:
+   - Investigate the latest trends in video content, channel growth, and user engagement.
+   - Identify shifts in popular categories, content formats, and viewer preferences.
+
+2.Channel Performance Evaluation:
+   - Evaluate the success of individual channels based on metrics such as subscribers, video views, and earnings.
+   - Compare channel performance across different countries and categories.
+
+3. **Revenue Insights**:
+   - Explore earnings data to understand how YouTube creators monetize their content.
+   - Analyze factors influencing monthly and yearly earnings.
+
+4. **Geospatial Analysis**:
+   - Visualize the geographical distribution of successful channels.
+   - Identify regions with high YouTube activity and potential growth opportunities.
+
+5. **Demographic Considerations**:
+   - Investigate how education levels, urbanization, and population density impact channel success.
+   - Understand the YouTube audience composition.
+
+6. **Data-Driven Decision-Making**:
+   - Provide actionable insights for content creators, marketers, and YouTube enthusiasts.
+   - Enable informed decisions related to channel strategies, content creation, and audience targeting.
+
+### Significance:
+The insights derived from this project can benefit various stakeholders:
+- **Content Creators**: Understand audience preferences, optimize content, and enhance channel performance.
+- **Marketers**: Tailor advertising strategies, identify influencer collaborations, and allocate budgets effectively.
+- **Researchers**: Contribute to the field of digital media studies and explore YouTube's societal impact.
+- **General Audience**: Gain awareness of YouTube's global reach and its role in shaping online culture.
+
+Whether you're a data analyst, content creator, or simply curious about YouTube's impact, this project aims to provide valuable insights into the dynamic world of online video content. 🎥🌍
+
+
+The data contains 19 columns and 963 rows
+
+
+    rank INT,
+    Youtuber VARCHAR(255),
+    subscribers BIGINT,
+    video_views BIGINT,
+    category VARCHAR(255),
+    uploads INT,
+    Country VARCHAR(255),
+    channel_type VARCHAR(255),
+    video_views_for_the_last_30_days BIGINT,
+    lowest_monthly_earnings DECIMAL(10, 2),
+    highest_monthly_earnings DECIMAL(10, 2),
+    lowest_yearly_earnings DECIMAL(10, 2),
+    highest_yearly_earnings DECIMAL(10, 2),
+    subscribers_for_last_30_days INT,
+    created_year INT,
+    Gross_tertiary_education_enrollment DECIMAL(5, 2),
+    Population BIGINT,
+    Unemployment_rate DECIMAL(5, 2),
+    Urban_population DECIMAL(5, 2)
+
+
+ANALYSIS:
+
+ Potential use cases for MySQL queries based on the provided columns in your YouTube statistics dataset:
+
+1. --Subscriber Analysis:
+   - Find channels gaining the most subscribers in the last 30 days.
+   - Calculate the average subscribers per channel.
+
+2. --Video Views Insights:
+   - Identify  Youtube channels with the highest views.
+   - Compare video views across different categories or countries.
+   - Calculate the total video views across channel types, categories, countries, continent.
+
+3. --Earnings Queries:
+   - Find channels with the highest and lowest monthly or yearly earnings.
+   
+4. --Geospatial Queries:
+   - Retrieve channels originating from a specific country.
+   
+
+5. --Category-Based Analysis:
+   - Group channels by category (e.g., Music, Entertainment, Education).
+   - Calculate average subscribers and video views per category.
+   - Identify popular categories.
+
+6. --Temporal Trends:
+   - Analyze channel creation years.
+   - Find channels created in a specific year.
+
+
+7. --Unemployment Rate Queries:
+   - Retrieve channels from countries with low or high unemployment rates.
+   - Explore how unemployment rates affect channel metrics.
+
+8. --Channel Type Investigation:
+   - Group channels by type (individual or brand).
+   - Calculate average subscribers and video views for each type.
+   - Compare earnings between individual and brand channels.
+
+9. --Top Performers:
+    - Find channels with the highest combined subscribers and video views.
+    - Identify channels with consistent growth in subscribers
+
+
